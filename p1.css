@@ -1,0 +1,40 @@
+body {
+    background-image: url('wl.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  #context{
+      position :absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+  }
+#text{
+    color: white;
+    font-family:verdana;
+    text-align: center;
+    font-size: 25px;
+}
+#line{
+    width:40%;
+    text-align:center;
+}
+#timer {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  #logo{
+    margin-top: 5px;
+    text-align: center;
+    left-justify:auto ;
+    }
+  .fa {
+    padding: 2px;
+    font-size: 20px;
+    width: 40px;
+    color: white;
+  }
+
